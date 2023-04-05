@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;    
+    columns: white;
+}
+#container:hover
+.controls button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: cornsilk;
+
+}
+.controls button:hover {
+    cursor: pointer;
+}
+div {
+    color: black;
+}
